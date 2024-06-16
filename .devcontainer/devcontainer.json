@@ -1,0 +1,18 @@
+{
+    "name": "My Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
+    "postCreateCommand": "./setup.sh",
+    "postStartCommand": "chmod +x * && python3 /workspaces/AALU2/baba1.py && python3 /workspaces/AALU2/baba.py",
+      "customizations": {
+      "vscode": {
+        "settings": {
+      "python.pythonPath": "/usr/local/bin/python",
+       "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-python.python"
+    ]
+      }
+      }
+      }
+  
